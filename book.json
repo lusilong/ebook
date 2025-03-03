@@ -1,0 +1,48 @@
+{
+  "title": "我的电子书项目",
+  "description": "一本关于[您的主题]的电子书",
+  "author": "您的名字",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "-sharing",
+    "sharing-plus",
+    "expandable-chapters",
+    "chapter-fold",
+    "back-to-top-button",
+    "code",
+    "copy-code-button",
+    "search-pro",
+    "github"
+  ],
+  "pluginsConfig": {
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "weibo", "qq", "qzone"
+      ]
+    },
+    "github": {
+      "url": "https://github.com/yourusername/ebook-1"
+    }
+  }
+}
